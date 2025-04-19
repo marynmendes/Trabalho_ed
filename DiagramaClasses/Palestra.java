@@ -11,7 +11,7 @@ public class Palestra {
     private String palestrante;
     private int limiteParticipantes;
     private Lista participantes;
-    private FilaEspera filaEspera;
+    private Fila filaEspera;
     
     // Métodos
     public Palestra(String id, String titulo, String descricao, LocalDateTime horario, int duracao, String local,
