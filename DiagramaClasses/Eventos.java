@@ -7,10 +7,10 @@ public class Eventos {
         private String descricao;
         private LocalDate dataInicio;
         private LocalDate dataFim;
-        private ArrayPalestras palestras;
+        private Lista palestras;
         
         // Métodos
-        public Eventos(String id, String nome, String descricao, LocalDate dataInicio, LocalDate dataFim, ArrayPalestras palestras) {
+        public Eventos(String id, String nome, String descricao, LocalDate dataInicio, LocalDate dataFim, Lista palestras) {
             
         }
         public boolean adicionarPalestra(Palestra p){

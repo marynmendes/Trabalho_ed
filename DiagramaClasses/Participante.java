@@ -3,15 +3,17 @@ public class Participante {
     private String id;
     private String nome;
     private String email;
-    private ListaPalestras palestrasInscritas;
+    private Lista palestrasInscritas;
     
     // Métodos
-    public Participante(id, nome, email){
+    public Participante(String id, String nome, String email) {
         
     }
+    
     public boolean inscreverEmPalestra(Palestra p){
 
     }
+    
     public boolean cancelarInscricao(String idPalestra){
 
     }

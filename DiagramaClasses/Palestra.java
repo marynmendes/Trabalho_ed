@@ -10,16 +10,19 @@ public class Palestra {
     private String local;
     private String palestrante;
     private int limiteParticipantes;
-    private ListaParticipantes participantes;
+    private Lista participantes;
     private FilaEspera filaEspera;
     
     // Métodos
-    public Palestra(id, titulo, descricao, horario, duracao, local, palestrante, limite){
-
+    public Palestra(String id, String titulo, String descricao, LocalDateTime horario, int duracao, String local,
+            String palestrante, int limiteParticipantes) {
+        
     }
+    
     public boolean inscreverParticipante(Participante p){
 
     }
+    
     public boolean cancelarInscricao(String idParticipante){
 
     }
